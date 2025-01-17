@@ -1,0 +1,58 @@
+# directories
+output
+newenv
+notes
+scripts/notebooks/
+
+# build and log directories
+jobs/errors/
+jobs/logs/
+**__pycache__/
+**build/
+**.temp/
+**.ipynb_checkpoints/
+**.egg-info
+dist/
+
+# dare adder
+dare/_adder.pxd
+dare/_adder.pyx
+
+# files
+**temp*
+**save*
+**results*
+**.c
+**.so
+**.html
+**catboost*
+**.cb.json
+README\ copy.md
+
+# data
+data/*/raw
+data/*/continuous/*
+data/*/*.npy
+data/*/*.csv
+data/*/*.dat
+data/*/*.txt
+data/*/*.data
+data/*/*.test
+data/ctr/train
+
+# datasets to ignore
+data/5xor
+data/6xor
+data/activity
+data/amazon
+data/dota2
+data/gas_sensor
+data/mfc18
+data/mfc18_mfc19
+data/mfc19
+data/mfc20
+data/mushroom
+data/nc17
+data/skin
+data/spect
+data/summary.txt
