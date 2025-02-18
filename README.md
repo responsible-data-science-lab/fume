@@ -16,4 +16,12 @@ We have provided FUME's implementation on 5 datasets - Adult Income, German Cred
 1. "Testing_DaRE_RF_Effect_on_Fairness.ipynb" --> Testing DaRE-RF unlearning technique's effect on fairness metric.
 2. "Testing_FUME_Efficiency_for_Dimensions_Variation.ipynb" --> Testing FUME's efficiency in terms of time as dataset dimensions (num_rows x num_cols) increases.
 3. "Testing_FUME_Efficiency_for_Instances_and_Features_Variation.ipynb" --> Testing FUME's efficiency in terms of time as number of dataset instances and features (along with feature cardinality) increases.
-   
+ 
+# Reference  
+@inproceedings{surve2025edbt,
+  title={Explaining Fairness Violations using Machine Unlearning},
+  author={Surve, Tanmay and Pradhan, Romila},
+  booktitle={Extended Database Technology},
+  year={2025},
+  organization={EDBT}
+}
