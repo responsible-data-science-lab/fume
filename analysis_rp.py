@@ -6,7 +6,7 @@ import pandas as pd
 from collections import Counter
 from sklearn.preprocessing import LabelEncoder
 from sklearn.model_selection import train_test_split
-from DebugRF import Dataset, FairnessMetric, FairnessDebuggingUsingMachineUnlearning
+from fume import Dataset, FairnessMetric, FairnessDebuggingUsingMachineUnlearning
 
 '''Class for loading and preprocessing german credits dataset'''
 class GermanCreditDataset(Dataset): 
